@@ -1,0 +1,27 @@
+{
+  "name": "phonebook-app",
+  "version": "1.0.0",
+  "description": "Phonebook application with PostgreSQL",
+  "scripts": {
+    "start": "cd backend && node server.js",
+    "dev": "cd backend && nodemon server.js",
+    "build": "echo 'Build complete'"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": [
+    "phonebook",
+    "postgresql",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "pg": "^8.16.3"
+  }
+}

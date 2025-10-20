@@ -1,0 +1,17 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.contact-item {
+    border-left: 4px solid #007bff;
+    transition: all 0.3s;
+}
+
+.contact-item:hover {
+    background-color: #e9ecef;
+    transform: translateX(5px);
+}
+
+.btn-group .btn {
+    margin: 0 2px;
+}
