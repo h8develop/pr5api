@@ -3,6 +3,7 @@ services:
     name: pr5api
     env: node
     plan: free
+    rootDir: backend
     buildCommand: "npm install"
     startCommand: "npm start"
     envVars:
